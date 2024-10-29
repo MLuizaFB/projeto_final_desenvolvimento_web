@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div_padrao{
+    background-color: rgb(238, 255, 152);
+    border: 20px solid;
+    border-image: url(/imagens/borda/borda_menor.png) 40%;
+}
+
+nav{
+    display: flex;   
+    position: fixed;
+    left: 2%;
+    top:20%;
+}
+
+.lista_nav{
+    list-style: none;
+    display: flex;   
+    flex-direction: column;
+    align-items: center; /* Mantém os ícones centralizados */
+    padding: 0;
+    margin: 0;
+}
+
+.icones_nav_img{
+    width: 50px;
+    padding-bottom: 10px;
+}
+
