@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .div_padrao{
     background-color: rgb(238, 255, 152);
     border: 20px solid;
@@ -13,13 +17,16 @@ nav{
     display: flex;   
     position: fixed;
     left: 2%;
-    top:20%;
+    top: 25%;
+    padding: 0.3em;
+    z-index: 2;
 }
 
 .lista_nav{
     list-style: none;
     display: flex;   
     flex-direction: column;
+    gap:1em;
     align-items: center; /* Mantém os ícones centralizados */
     padding: 0;
     margin: 0;
@@ -27,6 +34,124 @@ nav{
 
 .icones_nav_img{
     width: 50px;
-    padding-bottom: 10px;
+    
 }
 
+.icones_nav_img:hover{
+    transform: scale(1.08);
+    
+}
+
+
+#tela_inicial {
+    background-image: url(/imagens/fundos/IMG-20241029-WA0043\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#tela_inicial_titulo {
+    position: relative;
+    z-index: 2;
+    width: 40%;
+}
+
+
+#tela_sobre_stardew{
+    background-image: url(/imagens/fundos/fundo_sobre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+#div_tela_sobre_stardew{
+    padding:1em;
+}
+
+#tela_sobre_stardew_img{
+    width: 20%;
+    float: left;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+#tela_sobre_stardew_titulo{
+    font-size: 4rem;
+    color: rgb(105, 51, 19);
+}
+
+#tela_sobre_stardew_paragrafo{
+    font-size: 1.3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:rgb(105, 64, 37);
+    padding: 2rem ;
+}
+
+#tela_personagens{
+    background-image: url(/imagens/fundos/fundo_estrelas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    overflow: hidden;
+    padding: 5rem;
+}
+
+.tela_personagens_setas{
+    width: 8%;
+}
+
+.tela_personagens_setas:hover{
+    transform: scale(1.1);
+}
+
+#div_tela_personagens{
+    padding: 1rem ;
+}
+
+.div_envolta_personagem{
+    background-image: url(/imagens/fundos/fundo_sobre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#div_lista_tela_personagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Opcional: centraliza as listas */
+    gap: 2em; /* Espaço entre as colunas */
+}
+
+.lista_tela_personagens {
+    list-style: none;
+    display: flex;   
+    flex-direction: column;
+    gap: 1em;
+    align-items: center; /* Mantém os ícones centralizados */
+    padding: 0;
+    margin: 0;
+}
+
+.lista_tela_personagens_icones_imagens{
+    width: 2.5rem;
+}
+
+.lista_tela_personagens_icones_imagens:hover{
+    transform: scale(1.1);
+}

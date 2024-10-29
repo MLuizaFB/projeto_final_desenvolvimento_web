@@ -1,0 +1,115 @@
+.nuvens {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.nuvem1, .nuvem2, .nuvem3, .nuvem4 {
+    position: absolute;
+    background-image: url(/imagens/nuvens/nuvem_grande_1.png); /* Certifique-se de que o caminho está correto */
+    background-size: cover;
+    width: 420px; /* Tamanho das nuvens */
+    height: 200px;
+    opacity: 0.8;
+    animation: moverNuvem 15s linear infinite;
+}
+
+.nuvem5, .nuvem6, .nuvem7, .nuvem8 {
+    position: absolute;
+    background-image: url(/imagens/nuvens/nuvem_grande_v2.png); /* Certifique-se de que o caminho está correto */
+    background-size: cover;
+    width: 350px; /* Tamanho das nuvens */
+    height: 200px;
+    opacity: 0.8;
+    animation: moverNuvem 15s linear infinite;
+}
+
+.nuvem9, .nuvem10, .nuvem11, .nuvem12 {
+    position: absolute;
+    background-image: url(/imagens/nuvens/nuvem_pequena.png); /* Certifique-se de que o caminho está correto */
+    background-size: cover;
+    width: 300px; /* Tamanho das nuvens */
+    height: 200px;
+    opacity: 0.8;
+    animation: moverNuvem 15s linear infinite;
+}
+
+/* Posições e velocidades diferentes para as nuvens */
+.nuvem1 {
+    top: 10%;
+    left: -200px;
+    animation-duration: 20s;
+}
+.nuvem2 {
+    top: 30%;
+    left: -300px;
+    animation-duration: 25s;
+}
+.nuvem3 {
+    top: 50%;
+    left: -250px;
+    animation-duration: 18s;
+}
+.nuvem4 {
+    top: 70%;
+    left: -150px;
+    animation-duration: 22s;
+}
+
+.nuvem5 {
+    top:17%;
+    left: -220px;
+    animation-duration: 27s;
+}
+.nuvem6 {
+    top: 25%;
+    left: -250px;
+    animation-duration: 30s;
+}
+
+.nuvem7 {
+    top: 45%;
+    left: -300px;
+    animation-duration: 28s;
+}
+
+.nuvem8 {
+    top: 65%;
+    left: -350px;
+    animation-duration: 26s;
+}
+
+.nuvem9 {
+    top: 15%;
+    left: -180px;
+    animation-duration: 24s;
+}
+
+.nuvem10 {
+    top: 35%;
+    left: -170px;
+    animation-duration: 29s;
+}
+
+.nuvem11 {
+    top: 55%;
+    left: -160px;
+    animation-duration: 23s;
+}
+
+.nuvem12 {
+    top: 12%;
+    left: -140px;
+    animation-duration: 31s;
+}
+
+
+/* Animação de mover nuvem */
+@keyframes moverNuvem {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(120vw); }
+}
