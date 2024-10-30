@@ -77,69 +77,54 @@
 }
 
 .div_envolta_personagem{
-    background-image: url(/imagens/fundos/fundo_ceu.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-}
-
-
-
-/*#tela_personagens{
-    background-image: url(/imagens/fundos/fundo_estrelas.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    height: 100vh;
-    overflow: hidden;
-    padding: 5rem;
-}
-
-.tela_personagens_setas{
-    width: 8%;
-}
-
-.tela_personagens_setas:hover{
-    transform: scale(1.1);
-}
-
-#div_tela_personagens{
-    padding: 1rem ;
-}
-
-.div_envolta_personagem{
     background-image: url(/imagens/fundos/fundo_sobre.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     margin: 0;
+    
 }
 
-#div_lista_tela_personagens {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    gap: 2em; 
+
+#div_tela_personagens{
+    display: grid;
+    justify-content: center;
+    justify-items: center; /* Nova linha */
+    align-items: center;   /* Nova linha */
+    text-align: center;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 1rem;
+    padding: 1rem;
 }
 
-.lista_tela_personagens {
-    list-style: none;
-    display: flex;   
-    flex-direction: column;
-    gap: 1em;
-    align-items: center; 
-    padding: 0;
-    margin: 0;
+#tela_personagens_imagem{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
 }
 
-.lista_tela_personagens_icones_imagens{
-    width: 2.5rem;
+#personagem_imagem{
+    padding: 1rem 1rem 0rem 1rem;
 }
 
-.lista_tela_personagens_icones_imagens:hover{
-    transform: scale(1.1);
-}*/
+#tela_personagens_informacoes{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+#tela_personagens_informacoes p{
+    padding: 0.4rem;
+}
+
+#personagem_frase{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+
+#tela_personagens_presentes{
+    align-self: flex-start;
+}
