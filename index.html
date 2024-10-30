@@ -6,6 +6,10 @@
     <title>Stardew Valley</title>
     <link rel="stylesheet" href="estilos/index.css">
     <link rel="stylesheet" href="estilos/nuvens.css">
+    <link rel="stylesheet" href="estilos/tela_sobre.css">
+    <link rel="stylesheet" href="estilos/tela_personagens.css">
+    <link rel="stylesheet" href="estilos/tela_fazendas.css">
+    <link rel="stylesheet" href="estilos/tela_desenvolvimento.css">
 </head>
 <body>
 
@@ -79,7 +83,9 @@
 
     <section id="tela_personagens">
 
-        <img src="imagens/setas_dado/seta_esquerda.png" alt="" class="tela_personagens_setas">
+        <h1 style="color: aliceblue;" id="tela_personagens_titulo">Personagens</h1>
+
+        <img src="imagens/setas_dado/seta_esquerda.png" alt="" class="tela_personagens_setas" id="seta_esquerda">
 
         <div class="div_padrao" id="div_tela_personagens">
             <div class="div_envolta_personagem"><img src="imagens/personagens/p_Haley.png" alt="" id="personagem_imagem"></div>
@@ -93,7 +99,7 @@
             <p>Melhores presentes:  </p> <p id="personagem_presentes"></p>
         </div>
 
-        <img src="imagens/setas_dado/seta_direita.png" alt="" class="tela_personagens_setas">
+        <img src="imagens/setas_dado/seta_direita.png" alt="" class="tela_personagens_setas" id="seta_direita">
 
         <div class="div_padrao" id="div_lista_tela_personagens">
 
@@ -121,12 +127,7 @@
 
     <section id="tela_fazendas">
 
-        <div class="nuvens">
-            <div class="nuvem1"></div>
-            <div class="nuvem2"></div>
-            <div class="nuvem3"></div>
-            <div class="nuvem4"></div>
-        </div>
+        <h1 style="color: aliceblue;" id="tela_fazendas_titulo">Fazendas</h1>
 
         <div class="div_padrao" id="div_lista_tela_fazendas">
 
@@ -148,13 +149,20 @@
 
         <div class="div_padrao" id="div_imagem_tela_fazendas">
 
-            <img src="" alt="">
+            <img src="imagens/fazendas/fazenda_cantos.png" alt="" id="tela_fazendas_imagem">
 
         </div>
 
         <div class="div_padrao" id="div_texto_tela_fazendas">
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, eveniet doloribus maiores impedit ab alias laborum amet similique iste commodi. Quidem unde totam tempora nisi? Optio ipsa ut exercitationem mollitia?</p>
+            <h2 id="div_texto_tela_fazendas_titulo">Fazenda Quatro Cantos</h2>
+
+            <p id="div_texto_tela_fazendas_paragrafo">A área da fazenda é dividida em quatro áreas distintas, cada uma com algo das outras fazendas.
+                Superior esquerdo: Fazenda na floresta. Esta parte possui uma pequena área gramada, contendo um toco grande.
+                Superior direito: Fazenda padrão. Essa parte possui a maior área cultivável.
+                Inferior esquerdo: Fazenda entre Riachos. Esta parte possui um lago na parte inferior. Os jogadores podem pegar peixes e lixo aqui.
+                Inferior direito: Fazenda na colina. Esta parte possui uma pequena pedreira de 11x3, que gera pedras, minérios e geodos.
+                Penhascos e lagos adicionais diminuem a área cultivável total.</p>
 
         </div>
 
@@ -162,30 +170,35 @@
 
     <section id="tela_sobre_desenvolvimento">
 
-        <div class="div_padrao div_tela_sobre_desenvolvimento_com_textos" >
+        <h1 style="color: aliceblue;" id="tela_sobre_desenvolvimento_titulo">Desenvolvimento</h1>
+
+        <div class="div_padrao div_tela_sobre_desenvolvimento_com_textos" id="tela_sobre_desenvolvimento_ideia">
             <h2>Ideia do site</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum corrupti vel, ab amet impedit excepturi velit nemo asperiores temporibus voluptatum officiis labore quam quidem eveniet voluptates ipsum, qui est voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum corrupti vel, ab amet impedit excepturi velit nemo asperiores temporibus voluptatum officiis labore quam quidem eveniet voluptates ipsum, qui est voluptatem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus distinctio consequatur est odit quam exercitationem iure velit totam, dolor odio repellendus minima. Iure minus harum voluptatem culpa debitis velit?</p>
         </div>
 
-        <div class="div_padrao div_tela_sobre_desenvolvimento_com_textos">
+        <div class="div_padrao div_tela_sobre_desenvolvimento_com_textos" id="tela_sobre_desenvolvimento_processo">
             <h2>Processo e ferramentas</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate expedita aliquam vel velit sint possimus perferendis et ex esse animi fugit accusantium aut quod suscipit, cupiditate unde provident dolorem?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate expedita aliquam vel velit sint possimus perferendis et ex esse animi fugit accusantium aut quod suscipit, cupiditate unde provident dolorem?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam est quia, aperiam consequatur quae molestias at tenetur corrupti magni, architecto, fugiat cumque. Repudiandae, illo temporibus sint iusto ea eos voluptatem.</p>
         </div>
 
-        <div class="div_padrao div_tela_sobre_desenvolvimento_com_imagem">
-            <img src="imagens/devs/site_dev.png" alt="" class="imagem_devs">
+        <div class="div_padrao div_tela_sobre_desenvolvimento_com_imagem" id="tela_sobre_desenvolvimento_dev">
+            <img src="imagens/devs/site_dev.png" alt="" class="imagem_devs div_envolta_personagem" >
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut iusto veniam assumenda error soluta quos repellendus saepe cum, maiores mollitia quia asperiores accusantium sint fugiat amet nisi perferendis distinctio!</p>
         </div>
 
-        <div class="div_padrao div_tela_sobre_desenvolvimento_com_imagem">
-            <img src="imagens/devs/site_artist.png" alt="" class="imagem_devs"> 
+        <div class="div_padrao div_tela_sobre_desenvolvimento_com_imagem" id="tela_sobre_desenvolvimento_artist">
+            <img src="imagens/devs/site_artist.png" alt="" class="imagem_devs div_envolta_personagem"> 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti blanditiis distinctio error, aut assumenda consequuntur ratione eos veritatis quas obcaecati deserunt vel nemo at eum cupiditate fugiat, non reiciendis fugit.</p>
         </div>
 
-    </section>
+        
 
+    </section>
+  
     <footer>
-        <img src="imagens/devs/stardew_desenvolvido.png" alt="">
+        <img src="imagens/devs/stardew_desenvolvido.png" alt="" id="imagem_footer">
     </footer>
+    
 </body>
 </html>

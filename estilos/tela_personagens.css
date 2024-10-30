@@ -1,0 +1,145 @@
+#tela_personagens{
+    background-image: url(/imagens/fundos/fundo_sobre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding: 5rem 5rem 10rem 15rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    grid-template-rows: 10% 90%;
+    justify-content: center;
+    justify-items: center; /* Nova linha */
+    align-items: center;   /* Nova linha */
+    text-align: center;
+}
+
+#tela_personagens_titulo{
+    font-size: 60px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+}
+
+#div_tela_personagens{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.tela_personagens_setas{
+    width: 40%;
+}
+
+.tela_personagens_setas:hover{
+    transform: scale(1.1);
+}
+
+#seta_esquerda{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+}
+
+#seta_direita{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: center;
+}
+
+#div_lista_tela_personagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 2em; 
+    grid-row: 2/3;
+    grid-column: 4/5;
+    margin:2rem;
+
+}
+
+.lista_tela_personagens {
+    list-style: none;
+    display: flex;   
+    flex-direction: column;
+    gap: 1em;
+    align-items: center; 
+    padding: 0;
+    margin: 0;
+    padding-top: 0.6rem;
+}
+
+.lista_tela_personagens_icones_imagens{
+    width: 2.5rem;
+    
+}
+
+.lista_tela_personagens_icones_imagens:hover{
+    transform: scale(1.2);
+}
+
+.div_envolta_personagem{
+    background-image: url(/imagens/fundos/fundo_ceu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*#tela_personagens{
+    background-image: url(/imagens/fundos/fundo_estrelas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    overflow: hidden;
+    padding: 5rem;
+}
+
+.tela_personagens_setas{
+    width: 8%;
+}
+
+.tela_personagens_setas:hover{
+    transform: scale(1.1);
+}
+
+#div_tela_personagens{
+    padding: 1rem ;
+}
+
+.div_envolta_personagem{
+    background-image: url(/imagens/fundos/fundo_sobre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#div_lista_tela_personagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 2em; 
+}
+
+.lista_tela_personagens {
+    list-style: none;
+    display: flex;   
+    flex-direction: column;
+    gap: 1em;
+    align-items: center; 
+    padding: 0;
+    margin: 0;
+}
+
+.lista_tela_personagens_icones_imagens{
+    width: 2.5rem;
+}
+
+.lista_tela_personagens_icones_imagens:hover{
+    transform: scale(1.1);
+}*/
