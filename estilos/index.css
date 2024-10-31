@@ -15,12 +15,16 @@ html{
 
 p{
     color:rgb(105, 64, 37);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: "Pixelify Sans", sans-serif;
+    font-style: normal;
 }
 
 h2{
     color: rgb(105, 51, 19);
+    font-family: "Pixelify Sans", sans-serif;
+    font-style: normal;
 }
+
 
 nav{
     display: flex;   

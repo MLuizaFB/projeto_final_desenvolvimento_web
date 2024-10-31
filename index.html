@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="estilos/tela_personagens.css">
     <link rel="stylesheet" href="estilos/tela_fazendas.css">
     <link rel="stylesheet" href="estilos/tela_desenvolvimento.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Jersey+25&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
 
@@ -24,7 +28,7 @@
                 </li>
 
                 <li class="icones_nav">
-                    <a href="#div_tela_sobre_stardew">
+                    <a href="#tela_sobre_stardew">
                         <img src="imagens/icones_navegacao/icone_sobre.png" alt="" class="icones_nav_img">
                     </a>
                 </li>
@@ -92,16 +96,29 @@
             <div class="div_envolta_personagem" id="tela_personagens_imagem"><img src="imagens/personagens/p_Haley.png" alt="" id="personagem_imagem"></div>
             
             <div id="tela_personagens_informacoes">
-                <p id="personagem_nome">                Nome:  Haley                  </p>
-                <p id="personagem_aniversario">         Aniversário:  Primavera 14          </p>
-                <p id="personagem_endereco">            Endereço:  Rua do Salgueiro, nº 2               </p>
+                <div id="div_personagem_nome">
+                    <img src="imagens/setas_dado/pixelArt_heart.png" alt="" class="coracao">
+                    <h2 id="personagem_nome">Haley</h2>
+                    <img src="imagens/setas_dado/pixelArt_heart.png" alt="" class="coracao">
+
+                </div>
+                <p><b>Aniversário:</b></p>
+                <p id="personagem_aniversario">Primavera 14</p>
+                <p><b>Endereço:</b></p>
+                <p id="personagem_endereco">Rua do Salgueiro, nº 2</p>
             </div>
 
-            <p id="personagem_frase">               “Ser rica e popular durante todo o ensino médio tornou Haley um pouco convencida e egoísta. Ela tem uma tendência de julgar as pessoas por razões superficiais. Mas é muito tarde para ela descobrir o verdadeiro significado da vida? Existe uma jovem mulher engraçada, mente aberta escondida embaixo de toda essa beleza?”                 </p>
+            <!--<p id="personagem_frase">               “Ser rica e popular durante todo o ensino médio tornou Haley um pouco convencida e egoísta. Ela tem uma tendência de julgar as pessoas por razões superficiais. Mas é muito tarde para ela descobrir o verdadeiro significado da vida? Existe uma jovem mulher engraçada, mente aberta escondida embaixo de toda essa beleza?”                 </p>-->
 
 
             <div id="tela_personagens_presentes">
-                <h3 id="personagem_presentes">           Melhores presentes:     </h3> 
+                <h2 id="personagem_presentes_titulo">           Melhores presentes:     </h2> 
+                <div id="presentes">
+                    <img src="imagens/presentes/bolo_rosa.png" alt="">
+                    <img src="imagens/presentes/coco.png" alt="">
+                    <img src="imagens/presentes/girassol.png" alt="">
+                    <img src="imagens/presentes/salada_de_frutas.png" alt="">
+                </div>
                 
             </div>
 
