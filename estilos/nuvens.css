@@ -113,3 +113,11 @@
     0% { transform: translateX(-100%); }
     100% { transform: translateX(120vw); }
 }
+
+
+@media (max-width: 767px){
+    .nuvens{
+        width: 100vw; /* Garante que cobre toda a largura da tela */
+        height: 100vh; /* Garante que cobre toda a altura da tela */
+    }
+}

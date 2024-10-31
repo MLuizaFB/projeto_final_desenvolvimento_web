@@ -32,3 +32,31 @@
     
     padding: 2rem ;
 }
+
+
+
+
+@media (max-width: 767px){
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+
+    #tela_sobre_stardew{
+        height: 100vh;
+        width: 80vw;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        overflow: hidden;
+    }
+
+    #tela_sobre_stardew_titulo{
+        font-size: 3rem;
+    }
+
+    #tela_sobre_stardew_paragrafo{
+        font-size: 1.4rem;        
+        padding: 2rem ;
+    }
+}

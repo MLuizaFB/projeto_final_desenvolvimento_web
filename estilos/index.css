@@ -83,3 +83,45 @@ footer{
     width: 10%;
     margin: 1rem;
 }
+
+
+
+@media (max-width: 767px){
+
+    nav{
+        position: fixed;
+        left: 8%;
+        top: 1%;
+
+    }
+
+    .lista_nav{  
+        flex-direction: row;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+
+    nav{
+        position: fixed;
+        left: 30%;
+        top: 1%;
+
+    }
+
+    .lista_nav{  
+        flex-direction: row;
+    }
+
+    #tela_inicial {
+        height: 80vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+    
+    #tela_inicial_titulo {
+        width: 60%;
+    }
+}
