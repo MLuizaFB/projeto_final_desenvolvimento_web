@@ -11,7 +11,7 @@ html{
 .div_padrao{
     background-color: rgb(238, 255, 152);
     border: 20px solid;
-    border-image: url(/imagens/borda/borda_menor.png) 40%;
+    border-image: url(../imagens/borda/borda_menor.png) 40%;
 }
 
 p{
@@ -58,7 +58,7 @@ nav{
 
 
 #tela_inicial {
-    background-image: url(/imagens/fundos/fundo_ceu.jpg);
+    background-image: url(../imagens/fundos/fundo_ceu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

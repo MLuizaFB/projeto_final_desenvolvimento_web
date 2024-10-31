@@ -10,7 +10,7 @@
 
 .nuvem1, .nuvem2, .nuvem3, .nuvem4 {
     position: absolute;
-    background-image: url(/imagens/nuvens/nuvem_grande_1.png); /* Certifique-se de que o caminho está correto */
+    background-image: url(../imagens/nuvens/nuvem_grande_1.png); /* Certifique-se de que o caminho está correto */
     background-size: cover;
     width: 420px; /* Tamanho das nuvens */
     height: 200px;
@@ -20,7 +20,7 @@
 
 .nuvem5, .nuvem6, .nuvem7, .nuvem8 {
     position: absolute;
-    background-image: url(/imagens/nuvens/nuvem_grande_v2.png); /* Certifique-se de que o caminho está correto */
+    background-image: url(../imagens/nuvens/nuvem_grande_v2.png); /* Certifique-se de que o caminho está correto */
     background-size: cover;
     width: 350px; /* Tamanho das nuvens */
     height: 200px;
@@ -30,7 +30,7 @@
 
 .nuvem9, .nuvem10, .nuvem11, .nuvem12 {
     position: absolute;
-    background-image: url(/imagens/nuvens/nuvem_pequena.png); /* Certifique-se de que o caminho está correto */
+    background-image: url(../imagens/nuvens/nuvem_pequena.png); /* Certifique-se de que o caminho está correto */
     background-size: cover;
     width: 300px; /* Tamanho das nuvens */
     height: 200px;
