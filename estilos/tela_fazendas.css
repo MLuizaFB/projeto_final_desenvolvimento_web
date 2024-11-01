@@ -105,7 +105,7 @@
 
 @media (max-width: 767px){
     #tela_fazendas{
-        height: 150vh;
+        height: 190vh;
         grid-template-columns:1fr;
         grid-template-rows: 0.1fr 0.5fr 0.4fr 1fr;
         column-gap: 3rem;

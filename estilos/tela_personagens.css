@@ -146,7 +146,7 @@
 
 @media (max-width: 767px){
     #tela_personagens{
-        height: 110vh;
+        height: 150vh;
         width: 80vw;
         padding-left: 2.6rem;
         display: grid;
