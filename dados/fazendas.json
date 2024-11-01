@@ -1,0 +1,49 @@
+[
+    {
+        "imagem": "../imagens/fazendas/fazenda_padrao.png",
+        "nome": "Fazenda Padrão",
+        "descricao": "A maioria deste mapa é terra de Cultivo, ideal para Lavouras e Animais."
+    },
+
+    {
+        "imagem": "../imagens/fazendas/fazenda_entre_riachos.png",
+        "nome": "Fazenda entre Riachos",
+        "descricao": "A maioria deste mapa é água. A Pesca é viável nesta fazenda. Os jogadores podem pegar os mesmos peixes que são encontrados na Vila Pelicanos. A água diminui significativamente a quantidade de área de cultivo."
+    },
+
+    {
+        "imagem": "../imagens/fazendas/fazenda_na_floresta.png",
+        "nome": "Fazenda na Floresta",
+        "descricao": "Muitas Árvores são encontradas em todo o mapa. Os seguintes itens aparecem na área oeste do mapa: 8 tocos grandes renováveis (Madeira de lei), artigos de coleta sazonais (itens específicos do Bosque Secreto), ervas únicas que sempre derrubam sementes mistas, penhascos e lagoas adicionais diminuem a área agrícola em geral."
+    },
+
+    {
+        "imagem": "../imagens/fazendas/fazenda_na_colina.png",
+        "nome": "Fazenda na Colina",
+        "descricao": "Uma área de mineração especial, na parte sudoeste do mapa, gera os seguintes itens: Pedras, minérios e geodos. Os tipos de minérios que aparecem é relativo ao nível de mineração do jogador. Penhascos adicionais e um córrego diminuem a área agrícola total."
+    },
+
+    {
+        "imagem": "../imagens/fazendas/fazenda_remota.png",
+        "nome": "Fazenda Remota",
+        "descricao": "Monstros aparecem à noite (escalas com nível de Combate do jogador). Golem selvagem é exclusivo deste mapa. Penhascos adicionais e lagoas diminuem a área agrícola em geral."
+    },
+
+    {
+        "imagem": "../imagens/fazendas/fazenda_quatro_cantos.png",
+        "nome": "Fazenda Quatro Cantos",
+        "descricao": "A área da fazenda é dividida em quatro áreas distintas, cada uma com algo das outras fazendas. Superior esquerdo: Fazenda na floresta, esta parte possui uma pequena área gramada, contendo um toco grande. Superior direito: Fazenda padrão, essa parte possui a maior área cultivável. Inferior esquerdo: Fazenda entre Riachos, esta parte possui um lago na parte inferior. Os jogadores podem pegar peixes e lixo aqui. Inferior direito: Fazenda na colina, esta parte possui uma pequena pedreira de 11x3, que gera pedras, minérios e geodos. Penhascos e lagos adicionais diminuem a área cultivável total."
+    },
+
+    {
+        "imagem": "../imagens/fazendas/fazenda_na_praia.png",
+        "nome": "Fazenda na Praia",
+        "descricao": "Bom para coleta e pesca, e muito espaço aberto. Às vezes, caixas de suprimento chegam à costa. Tanto as coletas da floresta quanto as da praia podem aparecer. Os aspersores não funcionam no solo arenoso. Destinado a jogadores experientes, não como primeira fazenda. O número de ladrilhos cultiváveis neste mapa é 2.700, com 1.928 ladrilhos não lavráveis, mas construíveis. Há um patch de 202 ladrilhos (10x20 mais 2) onde os aspersores podem ser colocados. "
+    },
+
+    {
+        "imagem": "../imagens/fazendas/fazenda_do_prado.png",
+        "nome": "Fazenda do Prado",
+        "descricao": "Tem uma grama azul mastigável que os animais adoram. Os jogadores começam com um galinheiro e duas galinha . Em vez de receber 15 sementes de chirívia do prefeito Lewis , o jogador recebe 15 pedaços de feno. Ao pescar no rio, os jogadores têm 50% de chance de capturar peixes do lago da floresta, ou seja, peixes encontrados no lago da Floresta Cinzaseiva."
+    }
+]
