@@ -1,0 +1,184 @@
+[
+
+    {
+        "imagem": "../imagens/personagens/alex.png",
+        "nome": "Alex",
+        "aniversario": "Verão 13",
+        "endereco": "Estrada do Rio, nº 1",
+        "melhores_presentes": [
+            "../imagens/presentes/cafe_da_manha_completo.png",
+            "../imagens/presentes/jantar_de_salmao.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/elliott.png",
+        "nome": "Elliott",
+        "aniversario": "Outono 5",
+        "endereco": "Cabana do Elliott, praia",
+        "melhores_presentes": [
+            "../imagens/presentes/bolinhos_de_caranguejo.png",
+            "../imagens/presentes/lagosta.png",
+            "../imagens/presentes/pena_de_pato.png",
+            "../imagens/presentes/roma.png",
+            "../imagens/presentes/sopa_tom_kha.png",
+            "../imagens/presentes/tinta_de_lula.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/harvey.png",
+        "nome": "Harvey",
+        "aniversario": "Inverno 14",
+        "endereco": "Clínica do Harvey",
+        "melhores_presentes": [
+            "../imagens/presentes/cafe.png",
+            "../imagens/presentes/oleo_de_trufas.png",
+            "../imagens/presentes/picles.png",
+            "../imagens/presentes/superprato.png",
+            "../imagens/presentes/vinho.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/sam.png",
+        "nome": "Sam",
+        "aniversario": "Verão 17",
+        "endereco": "Rua do Salgueiro, nº 1",
+        "melhores_presentes": [
+            "../imagens/presentes/fruto_do_cacto.png",
+            "../imagens/presentes/olho_de_tigre.png",
+            "../imagens/presentes/pao_de_acer.png",
+            "../imagens/presentes/pizza.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/sebastian.png",
+        "nome": "Sebastian",
+        "aniversario": "Inverno 10",
+        "endereco": "Rua da Montanha, nº 24",
+        "melhores_presentes": [
+            "../imagens/presentes/lagrima_congelada.png",
+            "../imagens/presentes/obsidiana.png",
+            "../imagens/presentes/ovo_nulo.png",
+            "../imagens/presentes/sashimi.png",
+            "../imagens/presentes/sopa_de_abobora.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/shane.png",
+        "nome": "Shane",
+        "aniversario": "Primavera 20",
+        "endereco": "Rancho da Marnie, Floresta Cinzaseiva",
+        "melhores_presentes": [
+            "../imagens/presentes/cerveja.png",
+            "../imagens/presentes/enroladinhos_de_pimenta.png",
+            "../imagens/presentes/pimenta_quente.png",
+            "../imagens/presentes/pizza.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/abigail.png",
+        "nome": "Abigail",
+        "aniversario": "Outono 13",
+        "endereco": "Armazém do Pierre",
+        "melhores_presentes": [
+            "../imagens/presentes/abobora.png",
+            "../imagens/presentes/ametista.png",
+            "../imagens/presentes/baiacu.png",
+            "../imagens/presentes/bolo_de_chocolate.png",
+            "../imagens/presentes/enguia_picante.png",
+            "../imagens/presentes/mexido_de_amoras.png",
+            "../imagens/presentes/pudim_de_banana.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/emily.png",
+        "nome": "Emily",
+        "aniversario": "Primavera 27",
+        "endereco": "Rua do Salgueiro, nº 2",
+        "melhores_presentes": [
+            "../imagens/presentes/agua_marinha.png",
+            "../imagens/presentes/ametista.png",
+            "../imagens/presentes/esmeralda.png",
+            "../imagens/presentes/hamburguer_de_sobrevivencia.png",
+            "../imagens/presentes/jade.png",
+            "../imagens/presentes/la.png",
+            "../imagens/presentes/rubi.png",
+            "../imagens/presentes/tecido.png",
+            "../imagens/presentes/topazio.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/haley.png",
+        "nome": "Haley",
+        "aniversario": "Primavera 14",
+        "endereco": "Rua do Salgueiro, nº 2",
+        "melhores_presentes": [
+            "../imagens/presentes/bolo_rosa.png",
+            "../imagens/presentes/coco.png",
+            "../imagens/presentes/girassol.png",
+            "../imagens/presentes/salada_de_frutas.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/leah.png",
+        "nome": "Leah",
+        "aniversario": "Inverno 23",
+        "endereco": "Cabana da Leah, Floresta Cinzaseiva",
+        "melhores_presentes": [
+            "../imagens/presentes/bolinho_de_papoula.png",
+            "../imagens/presentes/mexido_de_legumes.png",
+            "../imagens/presentes/queijo_de_cabra.png",
+            "../imagens/presentes/refogado.png",
+            "../imagens/presentes/salada.png",
+            "../imagens/presentes/trufa.png",
+            "../imagens/presentes/vinho.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/maru.png",
+        "nome": "Maru",
+        "aniversario": "Verão 10",
+        "endereco": "Rua da Montanha, nº 24",
+        "melhores_presentes": [
+            "../imagens/presentes/barra_de_iridio.png",
+            "../imagens/presentes/barra_de_ouro.png",
+            "../imagens/presentes/barra_radioativa.png",
+            "../imagens/presentes/conjunto_de_pilhas.png",
+            "../imagens/presentes/couve_flor.png",
+            "../imagens/presentes/couve_flor_com_queijo.png",
+            "../imagens/presentes/diamante.png",
+            "../imagens/presentes/enroladinhos_de_pimenta.png",
+            "../imagens/presentes/morango.png",
+            "../imagens/presentes/refeicao_de_mineiro.png",
+            "../imagens/presentes/torta_de_ruibardo.png"
+        ]
+    },
+
+    {
+        "imagem": "../imagens/personagens/penny.png",
+        "nome": "Penny",
+        "aniversario": "Outono 2",
+        "endereco": "Trailer",
+        "melhores_presentes": [
+            "../imagens/presentes/areinha.png",
+            "../imagens/presentes/bolinho_de_papoula.png",
+            "../imagens/presentes/diamante.png",
+            "../imagens/presentes/esmeralda.png",
+            "../imagens/presentes/melao.png",
+            "../imagens/presentes/papoula.png",
+            "../imagens/presentes/prato_de_raizes.png",
+            "../imagens/presentes/prato_vermelho.png",
+            "../imagens/presentes/sopa_tom_kha.png"
+        ]
+    }
+
+]
