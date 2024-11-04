@@ -129,6 +129,13 @@
     padding-bottom: 0.8rem;
 }
 
+#presentes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
 .coracao{
     width: 10%;
 }
