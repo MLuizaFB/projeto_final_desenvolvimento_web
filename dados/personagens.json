@@ -19,33 +19,33 @@
     
 
     {
-        "imagem": "../imagens/personagens/elliott.png",
+        "imagem": "imagens/personagens/elliott.png",
         "nome": "Elliott",
         "aniversario": "Outono 5",
         "endereco": "Cabana do Elliott, praia",
         "melhores_presentes": [
             {
-                "imagem": "../imagens/presentes/bolinhos_de_caranguejo.png",
+                "imagem": "imagens/presentes/bolinhos_de_caranguejo.png",
                 "descricao": "Bolinhos de caranguejo"
             },
             {
-                "imagem": "../imagens/presentes/lagosta.png",
+                "imagem": "imagens/presentes/lagosta.png",
                 "descricao": "Lagosta"
             },
             {
-                "imagem": "../imagens/presentes/pena_de_pato.png",
+                "imagem": "imagens/presentes/pena_de_pato.png",
                 "descricao": "Pena de pato"
             },
             {
-                "imagem": "../imagens/presentes/roma.png",
+                "imagem": "imagens/presentes/roma.png",
                 "descricao": "Romã"
             },
             {
-                "imagem":"../imagens/presentes/sopa_tom_kha.png" ,
+                "imagem":"imagens/presentes/sopa_tom_kha.png" ,
                 "descricao": "Sopa Tom Kha"
             },
             {
-                "imagem": "../imagens/presentes/tinta_de_lula.png",
+                "imagem": "imagens/presentes/tinta_de_lula.png",
                 "descricao": "Tinta de Lula"
             }           
             
@@ -53,30 +53,30 @@
     },
 
     {
-        "imagem": "../imagens/personagens/harvey.png",
+        "imagem": "imagens/personagens/harvey.png",
         "nome": "Harvey",
         "aniversario": "Inverno 14",
         "endereco": "Clínica do Harvey",
         "melhores_presentes": [
 
             {
-                "imagem": "../imagens/presentes/cafe.png",
+                "imagem": "imagens/presentes/cafe.png",
                 "descricao": "Café"
             },   
             {
-                "imagem": "../imagens/presentes/oleo_de_trufas.png",
+                "imagem": "imagens/presentes/oleo_de_trufas.png",
                 "descricao": "Óleo de trufas"
             },   
             {
-                "imagem": "../imagens/presentes/picles.png",
+                "imagem": "imagens/presentes/picles.png",
                 "descricao": "Picles"
             },   
             {
-                "imagem":  "../imagens/presentes/superprato.png",
+                "imagem":  "imagens/presentes/superprato.png",
                 "descricao": "Super prato"
             },   
             {
-                "imagem":  "../imagens/presentes/vinho.png",
+                "imagem":  "imagens/presentes/vinho.png",
                 "descricao": "Vinho"
             } 
            
@@ -84,25 +84,25 @@
     },
 
     {
-        "imagem": "../imagens/personagens/sam.png",
+        "imagem": "imagens/personagens/sam.png",
         "nome": "Sam",
         "aniversario": "Verão 17",
         "endereco": "Rua do Salgueiro, nº 1",
         "melhores_presentes": [
             {
-                "imagem": "../imagens/presentes/fruto_do_cacto.png",
+                "imagem": "imagens/presentes/fruto_do_cacto.png",
                 "descricao": "Fruto do cacto"
             }, 
             {
-                "imagem":  "../imagens/presentes/olho_de_tigre.png",
+                "imagem":  "imagens/presentes/olho_de_tigre.png",
                 "descricao": "Olho de tigre"
             }, 
             {
-                "imagem": "../imagens/presentes/pao_de_acer.png",
+                "imagem": "imagens/presentes/pao_de_acer.png",
                 "descricao": "Pão de Acer"
             }, 
             {
-                "imagem": "../imagens/presentes/pizza.png",
+                "imagem": "imagens/presentes/pizza.png",
                 "descricao": "Pizza"
             } 
     
@@ -110,29 +110,29 @@
     },
 
     {
-        "imagem": "../imagens/personagens/sebastian.png",
+        "imagem": "imagens/personagens/sebastian.png",
         "nome": "Sebastian",
         "aniversario": "Inverno 10",
         "endereco": "Rua da Montanha, nº 24",
         "melhores_presentes": [
             {
-                "imagem": "../imagens/presentes/lagrima_congelada.png",
+                "imagem": "imagens/presentes/lagrima_congelada.png",
                 "descricao": "Lágrima congelada"
             }, 
             {
-                "imagem": "../imagens/presentes/obsidiana.png",
+                "imagem": "imagens/presentes/obsidiana.png",
                 "descricao": "Obsidiana"
             }, 
             {
-                "imagem": "../imagens/presentes/ovo_nulo.png",
+                "imagem": "imagens/presentes/ovo_nulo.png",
                 "descricao": "Ovo nulo"
             }, 
             {
-                "imagem": "../imagens/presentes/sashimi.png",
+                "imagem": "imagens/presentes/sashimi.png",
                 "descricao": "Sashimi"
             }, 
             {
-                "imagem":  "../imagens/presentes/sopa_de_abobora.png",
+                "imagem":  "imagens/presentes/sopa_de_abobora.png",
                 "descricao": "Sopa de abóbora"
             }
 
@@ -140,25 +140,25 @@
     },
 
     {
-        "imagem": "../imagens/personagens/shane.png",
+        "imagem": "imagens/personagens/shane.png",
         "nome": "Shane",
         "aniversario": "Primavera 20",
         "endereco": "Rancho da Marnie, Floresta Cinzaseiva",
         "melhores_presentes": [
             {
-                "imagem": "../imagens/presentes/cerveja.png",
+                "imagem": "imagens/presentes/cerveja.png",
                 "descricao": "Cerveja"
             }, 
             {
-                "imagem": "../imagens/presentes/enroladinhos_de_pimenta.png",
+                "imagem": "imagens/presentes/enroladinhos_de_pimenta.png",
                 "descricao": "Enroladinhos de pimenta"
             }, 
             {
-                "imagem": "../imagens/presentes/pimenta_quente.png",
+                "imagem": "imagens/presentes/pimenta_quente.png",
                 "descricao": "Pimenta quente"
             }, 
             {
-                "imagem": "../imagens/presentes/pizza.png",
+                "imagem": "imagens/presentes/pizza.png",
                 "descricao": "Pizza"
             } 
  
@@ -166,37 +166,37 @@
     },
 
     {
-        "imagem": "../imagens/personagens/abigail.png",
+        "imagem": "imagens/personagens/abigail.png",
         "nome": "Abigail",
         "aniversario": "Outono 13",
         "endereco": "Armazém do Pierre",
         "melhores_presentes": [
             {
-                "imagem": "../imagens/presentes/abobora.png",
+                "imagem": "imagens/presentes/abobora.png",
                 "descricao": "Abóbora"
             }, 
             {
-                "imagem":  "../imagens/presentes/ametista.png",
+                "imagem":  "imagens/presentes/ametista.png",
                 "descricao": "Ametista"
             }, 
             {
-                "imagem": "../imagens/presentes/baiacu.png",
+                "imagem": "imagens/presentes/baiacu.png",
                 "descricao": "Baiacú"
             }, 
             {
-                "imagem": "../imagens/presentes/bolo_de_chocolate.png",
+                "imagem": "imagens/presentes/bolo_de_chocolate.png",
                 "descricao": "Bolo de chocolate"
             }, 
             {
-                "imagem":  "../imagens/presentes/enguia_picante.png",
+                "imagem":  "imagens/presentes/enguia_picante.png",
                 "descricao": "Enguia picante"
             }, 
             {
-                "imagem":  "../imagens/presentes/mexido_de_amoras.png",
+                "imagem":  "imagens/presentes/mexido_de_amoras.png",
                 "descricao": "Mexido de amoras"
             }, 
             {
-                "imagem": "../imagens/presentes/pudim_de_banana.png",
+                "imagem": "imagens/presentes/pudim_de_banana.png",
                 "descricao": "Pudim de banana"
             }            
             
@@ -204,45 +204,45 @@
     },
 
     {
-        "imagem": "../imagens/personagens/emily.png",
+        "imagem": "imagens/personagens/emily.png",
         "nome": "Emily",
         "aniversario": "Primavera 27",
         "endereco": "Rua do Salgueiro, nº 2",
         "melhores_presentes": [
             {
-                "imagem":  "../imagens/presentes/agua_marinha.png",
+                "imagem":  "imagens/presentes/agua_marinha.png",
                 "descricao": "Água marinha"
             }, 
             {
-                "imagem":  "../imagens/presentes/ametista.png",
+                "imagem":  "imagens/presentes/ametista.png",
                 "descricao": "Ametista"
             }, 
             {
-                "imagem":  "../imagens/presentes/esmeralda.png",
+                "imagem":  "imagens/presentes/esmeralda.png",
                 "descricao": "Esmeralda"
             }, 
             {
-                "imagem":  "../imagens/presentes/hamburguer_de_sobrevivencia.png", 
+                "imagem":  "imagens/presentes/hamburguer_de_sobrevivencia.png", 
                 "descricao": "Hambúrguer de sobrevivência"
             }, 
             {
-                "imagem":   "../imagens/presentes/jade.png",
+                "imagem":   "imagens/presentes/jade.png",
                 "descricao": "Jade"
             }, 
             {
-                "imagem": "../imagens/presentes/la.png", 
+                "imagem": "imagens/presentes/la.png", 
                 "descricao": "Lã"
             }, 
             {
-                "imagem":  "../imagens/presentes/rubi.png", 
+                "imagem":  "imagens/presentes/rubi.png", 
                 "descricao": "Rubi"
             }, 
             {
-                "imagem": "../imagens/presentes/tecido.png", 
+                "imagem": "imagens/presentes/tecido.png", 
                 "descricao": "Tecido"
             }, 
             {
-                "imagem":   "../imagens/presentes/topazio.png",
+                "imagem":   "imagens/presentes/topazio.png",
                 "descricao": "Topázio"
             }   
            
@@ -250,25 +250,25 @@
     },
 
     {
-        "imagem": "../imagens/personagens/haley.png",
+        "imagem": "imagens/personagens/haley.png",
         "nome": "Haley",
         "aniversario": "Primavera 14",
         "endereco": "Rua do Salgueiro, nº 2",
         "melhores_presentes": [
             {
-                "imagem": "../imagens/presentes/bolo_rosa.png",
+                "imagem": "imagens/presentes/bolo_rosa.png",
                 "descricao": "Bolo rosa"
             },
             {
-                "imagem":  "../imagens/presentes/coco.png",
+                "imagem":  "imagens/presentes/coco.png",
                 "descricao": "Cocô"
             },
             {
-                "imagem": "../imagens/presentes/girassol.png",
+                "imagem": "imagens/presentes/girassol.png",
                 "descricao": "Girassol"
             },
             {
-                "imagem":  "../imagens/presentes/salada_de_frutas.png",
+                "imagem":  "imagens/presentes/salada_de_frutas.png",
                 "descricao": "Salada de frutas"
             }
    
@@ -276,37 +276,37 @@
     },
 
     {
-        "imagem": "../imagens/personagens/leah.png",
+        "imagem": "imagens/personagens/leah.png",
         "nome": "Leah",
         "aniversario": "Inverno 23",
         "endereco": "Cabana da Leah, Floresta Cinzaseiva",
         "melhores_presentes": [
             {
-                "imagem":"../imagens/presentes/bolinho_de_papoula.png",
+                "imagem":"imagens/presentes/bolinho_de_papoula.png",
                 "descricao": "Bolinho de papoula"
             },
             {
-                "imagem":"../imagens/presentes/mexido_de_legumes.png",
+                "imagem":"imagens/presentes/mexido_de_legumes.png",
                 "descricao": "Mexido de legumes"
             },
             {
-                "imagem":"../imagens/presentes/queijo_de_cabra.png",
+                "imagem":"imagens/presentes/queijo_de_cabra.png",
                 "descricao": "Queijo de cabra"
             },
             {
-                "imagem": "../imagens/presentes/refogado.png",
+                "imagem": "imagens/presentes/refogado.png",
                 "descricao": "Refogado"
             },
             {
-                "imagem":"../imagens/presentes/salada.png",
+                "imagem":"imagens/presentes/salada.png",
                 "descricao": "Salada"
             },
             {
-                "imagem":"../imagens/presentes/trufa.png",
+                "imagem":"imagens/presentes/trufa.png",
                 "descricao": "Trufa"
             },
             {
-                "imagem":"../imagens/presentes/vinho.png",
+                "imagem":"imagens/presentes/vinho.png",
                 "descricao": "Vinho"
             } 
             
@@ -314,53 +314,53 @@
     },
 
     {
-        "imagem": "../imagens/personagens/maru.png",
+        "imagem": "imagens/personagens/maru.png",
         "nome": "Maru",
         "aniversario": "Verão 10",
         "endereco": "Rua da Montanha, nº 24",
         "melhores_presentes": [
             {
-                "imagem":"../imagens/presentes/barra_de_iridio.png",
+                "imagem":"imagens/presentes/barra_de_iridio.png",
                 "descricao": "Barra de Irídio"
             },
             {
-                "imagem": "../imagens/presentes/barra_de_ouro.png",
+                "imagem": "imagens/presentes/barra_de_ouro.png",
                 "descricao": "Barra de ouro"
             },
             {
-                "imagem":"../imagens/presentes/barra_radioativa.png",
+                "imagem":"imagens/presentes/barra_radioativa.png",
                 "descricao": "Barra radioativa"
             },
             {
-                "imagem":"../imagens/presentes/conjunto_de_pilhas.png",
+                "imagem":"imagens/presentes/conjunto_de_pilhas.png",
                 "descricao": "Conjunto de pilhas"
             },
             {
-                "imagem":"../imagens/presentes/couve_flor.png",
+                "imagem":"imagens/presentes/couve_flor.png",
                 "descricao": "Couve-flor"
             },
             {
-                "imagem":"../imagens/presentes/couve_flor_com_queijo.png",
+                "imagem":"imagens/presentes/couve_flor_com_queijo.png",
                 "descricao": "Couve-flor com queijo"
             },
             {
-                "imagem": "../imagens/presentes/diamante.png",
+                "imagem": "imagens/presentes/diamante.png",
                 "descricao": "Diamante"
             },
             {
-                "imagem":"../imagens/presentes/enroladinhos_de_pimenta.png",
+                "imagem":"imagens/presentes/enroladinhos_de_pimenta.png",
                 "descricao": "Enroladinhos de pimenta"
             },
             {
-                "imagem":"../imagens/presentes/morango.png",
+                "imagem":"imagens/presentes/morango.png",
                 "descricao": "Morango"
             },
             {
-                "imagem":"../imagens/presentes/refeicao_de_mineiro.png",
+                "imagem":"imagens/presentes/refeicao_de_mineiro.png",
                 "descricao": "Refeição de mineiro"
             },
             {
-                "imagem":"../imagens/presentes/torta_de_ruibardo.png",
+                "imagem":"imagens/presentes/torta_de_ruibardo.png",
                 "descricao": "Torta de ruibardo"
             }
 
@@ -368,45 +368,45 @@
     },
 
     {
-        "imagem": "../imagens/personagens/penny.png",
+        "imagem": "imagens/personagens/penny.png",
         "nome": "Penny",
         "aniversario": "Outono 2",
         "endereco": "Trailer",
         "melhores_presentes": [
             {
-                "imagem":"../imagens/presentes/areinha.png",
+                "imagem":"imagens/presentes/areinha.png",
                 "descricao": "Areinha"
             },
             {
-                "imagem":"../imagens/presentes/bolinho_de_papoula.png",
+                "imagem":"imagens/presentes/bolinho_de_papoula.png",
                 "descricao": "Bolinho de papoula"
             },
             {
-                "imagem": "../imagens/presentes/diamante.png",
+                "imagem": "imagens/presentes/diamante.png",
                 "descricao": "Diamante"
             },
             {
-                "imagem": "../imagens/presentes/esmeralda.png",
+                "imagem": "imagens/presentes/esmeralda.png",
                 "descricao": "Esmeralda"
             },
             {
-                "imagem":"../imagens/presentes/melao.png",
+                "imagem":"imagens/presentes/melao.png",
                 "descricao": "Melão"
             },
             {
-                "imagem":"../imagens/presentes/papoula.png",
+                "imagem":"imagens/presentes/papoula.png",
                 "descricao": "Papoula"
             },
             {
-                "imagem":"../imagens/presentes/prato_de_raizes.png",
+                "imagem":"imagens/presentes/prato_de_raizes.png",
                 "descricao": "Prato de raízes"
             },
             {
-                "imagem":"../imagens/presentes/prato_vermelho.png",
+                "imagem":"imagens/presentes/prato_vermelho.png",
                 "descricao": "Prato vermelho"
             },
             {
-                "imagem":"../imagens/presentes/sopa_tom_kha.png",
+                "imagem":"imagens/presentes/sopa_tom_kha.png",
                 "descricao": "Sopa Tom Kha"
             }
   
