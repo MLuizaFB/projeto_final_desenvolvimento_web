@@ -1,17 +1,17 @@
 [
 
     {
-        "imagem": "../imagens/personagens/alex.png",
+        "imagem": "imagens/personagens/alex.png",
         "nome": "Alex",
         "aniversario": "Verão 13",
         "endereco": "Estrada do Rio, nº 1",
         "melhores_presentes": [
             {
-                "imagem": "../imagens/presentes/cafe_da_manha_completo.png",
+                "imagem": "imagens/presentes/cafe_da_manha_completo.png",
                 "descricao": "Café da manhã completo"
             },
             {
-                "imagem": "../imagens/presentes/jantar_de_salmao.png",
+                "imagem": "imagens/presentes/jantar_de_salmao.png",
                 "descricao": "Jantar de salmão"
             }
         ]
