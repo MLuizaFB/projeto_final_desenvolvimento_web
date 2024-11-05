@@ -15,11 +15,21 @@ fetch('dados/personagens.json')
                 presentesContainer.innerHTML = ''; 
 
                 personagem.melhores_presentes.forEach(presente => {
+                    const abbr = document.createElement('abbr');
+                    abbr.classList.add('tooltip'); 
+
                     const presenteImg = document.createElement('img');
                     presenteImg.src = presente.imagem;
                     presenteImg.alt = presente.descricao;
                     presenteImg.classList.add('imagem_presente');
-                    presentesContainer.appendChild(presenteImg);
+
+                    const tooltipText = document.createElement('span');
+                    tooltipText.classList.add('tooltiptext');
+                    tooltipText.textContent = presente.descricao;
+
+                    abbr.appendChild(presenteImg);
+                    abbr.appendChild(tooltipText); 
+                    presentesContainer.appendChild(abbr);
                 });
             }
         }
