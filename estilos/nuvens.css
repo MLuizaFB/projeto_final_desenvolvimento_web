@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.nuvem1, .nuvem2, .nuvem3, .nuvem4 {
+.nuvem1, .nuvem2, .nuvem3 {
     position: absolute;
     background-image: url(../imagens/nuvens/nuvem_grande_1.png); /* Certifique-se de que o caminho está correto */
     background-size: cover;
@@ -18,7 +18,7 @@
     animation: moverNuvem 15s linear infinite;
 }
 
-.nuvem5, .nuvem6, .nuvem7, .nuvem8 {
+.nuvem4, .nuvem5, .nuvem6 {
     position: absolute;
     background-image: url(../imagens/nuvens/nuvem_grande_v2.png); /* Certifique-se de que o caminho está correto */
     background-size: cover;
@@ -28,7 +28,7 @@
     animation: moverNuvem 15s linear infinite;
 }
 
-.nuvem9, .nuvem10, .nuvem11, .nuvem12 {
+.nuvem7, .nuvem8, .nuvem9 {
     position: absolute;
     background-image: url(../imagens/nuvens/nuvem_pequena.png); /* Certifique-se de que o caminho está correto */
     background-size: cover;
@@ -61,7 +61,7 @@
 }
 
 .nuvem5 {
-    top:17%;
+    top:5%;
     left: -220px;
     animation-duration: 27s;
 }
@@ -89,6 +89,7 @@
     animation-duration: 24s;
 }
 
+/*
 .nuvem10 {
     top: 35%;
     left: -170px;
@@ -105,7 +106,7 @@
     top: 12%;
     left: -140px;
     animation-duration: 31s;
-}
+}*/
 
 
 /* Animação de mover nuvem */
