@@ -64,3 +64,36 @@ fetch('dados/personagens.json')
     .catch(error => console.error('Erro ao carregar o JSON:', error));
 
 
+    
+function carregarDadosFazenda(nomeFazenda) {
+    fetch('dados/fazendas.json')
+        .then(response => response.json())
+        .then(data => {
+            
+            const fazenda = data.find(f => f.nome === nomeFazenda);
+
+            if (fazenda) {
+                document.getElementById('tela_fazendas_imagem').src = fazenda.imagem;
+                document.getElementById('div_texto_tela_fazendas_titulo').innerText = fazenda.nome;
+                document.getElementById('div_texto_tela_fazendas_paragrafo').innerText = fazenda.descricao;
+            }
+        })
+        .catch(error => console.error('Erro ao carregar os dados:', error));
+}
+
+fetch('dados/fazendas.json')
+    .then(response => response.json())
+    .then(data => {
+        if (data.length > 0) {
+            carregarDadosFazenda(data[0].nome);
+        }
+    })
+    .catch(error => console.error('Erro ao carregar os dados iniciais:', error));
+
+
+document.querySelectorAll('.lista_tela_fazendas_icones_imagens').forEach(icone => {
+    icone.addEventListener('click', () => {
+        const fazendaSelecionada = icone.getAttribute('data-fazendas');
+        carregarDadosFazenda(fazendaSelecionada);
+    });
+});
