@@ -21,15 +21,22 @@ fetch('dados/personagens.json')
                     const presenteImg = document.createElement('img');
                     presenteImg.src = presente.imagem;
                     presenteImg.alt = presente.descricao;
-                    presenteImg.classList.add('imagem_presente');
+                    presenteImg.classList.add('imagem_presente', 'acessivel');
 
                     const tooltipText = document.createElement('span');
-                    tooltipText.classList.add('tooltiptext');
+                    tooltipText.classList.add('tooltiptext', 'acessivel');
                     tooltipText.textContent = presente.descricao;
 
                     abbr.appendChild(presenteImg);
                     abbr.appendChild(tooltipText); 
                     presentesContainer.appendChild(abbr);
+
+                    presenteImg.addEventListener('mouseenter', () => {
+                        if (modoAcessibilidade) {
+                            const utterance = new SpeechSynthesisUtterance(presente.descricao);
+                            window.speechSynthesis.speak(utterance);
+                        }
+                    });
                 });
             }
         }
@@ -95,5 +102,27 @@ document.querySelectorAll('.lista_tela_fazendas_icones_imagens').forEach(icone =
     icone.addEventListener('click', () => {
         const fazendaSelecionada = icone.getAttribute('data-fazendas');
         carregarDadosFazenda(fazendaSelecionada);
+    });
+});
+
+
+let modoAcessibilidade = false;
+const toggleButton = document.getElementById('botao_acessibilidade');
+
+// Toggle de acessibilidade ao clicar na imagem
+toggleButton.addEventListener('click', () => {
+  modoAcessibilidade = !modoAcessibilidade;
+  toggleButton.alt = modoAcessibilidade ? 'Desativar Leitura de Texto' : 'Ativar Leitura de Texto';
+});
+
+document.querySelectorAll('.acessivel').forEach(element => {
+    element.addEventListener('mouseenter', () => {
+      if (modoAcessibilidade) {
+        const texto = element.tagName === 'IMG' ? element.alt : element.innerText;
+        if (texto) {
+          const utterance = new SpeechSynthesisUtterance(texto);
+          window.speechSynthesis.speak(utterance);
+        }
+      }
     });
 });
