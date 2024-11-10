@@ -1,2 +1,2 @@
 # projeto_final_desenvolvimento_web
-Projeto desenvolvido para avaliação final da disciplina de desenvolvimento web, UEPG. As imagens usadas no site não são de minha autoria, seus direitos pertencem ao jogo Stardew Valley
+Projeto desenvolvido para avaliação final da disciplina de desenvolvimento web, UEPG. Os direitos das imagens usadas no site pertencem a Stardew Valley. Site sem fins comerciais ou lucrativos.
