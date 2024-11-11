@@ -12,6 +12,7 @@
 
 #div_tela_sobre_stardew{
     padding:1em;
+    overflow-x: hidden;
 }
 
 #tela_sobre_stardew_img{
@@ -39,10 +40,10 @@
 @media (max-width: 767px){
    
     #tela_sobre_stardew{
-        height: 160vh;
-        width: 90vw;
+        height: 162vh;
+        width: 92vw;
         padding-left: 1rem;
-        padding-right: 1rem;
+        padding-right: 1.2rem;
         overflow: hidden;
     }
 
@@ -53,6 +54,10 @@
     #tela_sobre_stardew_paragrafo{
         font-size: 1.2rem;        
         padding: 0.5rem ;
+    }
+
+    #tela_sobre_stardew_img{
+        width: 35%;
     }
 }
 

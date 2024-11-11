@@ -36,7 +36,7 @@ nav{
     left: 2%;
     top: 25%;
     padding: 0.3em;
-    z-index: 2;
+    z-index: 3;
 }
 
 .lista_nav{
@@ -129,6 +129,25 @@ footer{
     opacity: 1;
 }
 
+::-webkit-scrollbar {
+    width: 20px; 
+    height: 8px; 
+  }
+  
+::-webkit-scrollbar-track {
+    background-color:  #442f0a;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgb(138, 80, 10);
+    border-radius: 10px;
+    border: 3px solid rgb(138, 80, 10);
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(166, 99, 17);
+}
+  
 
 
 
@@ -152,6 +171,19 @@ footer{
 
     #tela_inicial_titulo {
         width: 70%;
+    }
+
+    #botao_acessibilidade{
+        width: 30%;
+    }
+
+    #imagem_footer{
+        width: 30%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px; 
+        height: 3px; 
     }
     
 }
@@ -181,5 +213,9 @@ footer{
     
     #tela_inicial_titulo {
         width: 60%;
+    }
+
+    #botao_acessibilidade{
+        width: 20%;
     }
 }
