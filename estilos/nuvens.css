@@ -10,9 +10,9 @@
 
 .nuvem1, .nuvem2, .nuvem3 {
     position: absolute;
-    background-image: url(../imagens/nuvens/nuvem_grande_1.png); /* Certifique-se de que o caminho está correto */
+    background-image: url(../imagens/nuvens/nuvem_grande_1.png); 
     background-size: cover;
-    width: 420px; /* Tamanho das nuvens */
+    width: 420px; 
     height: 200px;
     opacity: 0.8;
     animation: moverNuvem 15s linear infinite;
@@ -20,9 +20,9 @@
 
 .nuvem4, .nuvem5, .nuvem6 {
     position: absolute;
-    background-image: url(../imagens/nuvens/nuvem_grande_v2.png); /* Certifique-se de que o caminho está correto */
+    background-image: url(../imagens/nuvens/nuvem_grande_v2.png); 
     background-size: cover;
-    width: 350px; /* Tamanho das nuvens */
+    width: 350px;
     height: 200px;
     opacity: 0.8;
     animation: moverNuvem 15s linear infinite;
@@ -30,15 +30,14 @@
 
 .nuvem7, .nuvem8, .nuvem9 {
     position: absolute;
-    background-image: url(../imagens/nuvens/nuvem_pequena.png); /* Certifique-se de que o caminho está correto */
+    background-image: url(../imagens/nuvens/nuvem_pequena.png); 
     background-size: cover;
-    width: 300px; /* Tamanho das nuvens */
+    width: 300px;
     height: 200px;
     opacity: 0.8;
     animation: moverNuvem 15s linear infinite;
 }
 
-/* Posições e velocidades diferentes para as nuvens */
 .nuvem1 {
     top: 10%;
     left: -200px;
@@ -109,7 +108,6 @@
 }*/
 
 
-/* Animação de mover nuvem */
 @keyframes moverNuvem {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(120vw); }
@@ -118,7 +116,7 @@
 
 @media (max-width: 767px){
     .nuvens{
-        width: 100vw; /* Garante que cobre toda a largura da tela */
-        height: 100vh; /* Garante que cobre toda a altura da tela */
+        width: 100vw; 
+        height: 100vh; 
     }
 }

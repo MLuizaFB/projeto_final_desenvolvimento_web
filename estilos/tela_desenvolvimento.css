@@ -10,8 +10,8 @@
     column-gap: 3rem;
     row-gap: 2rem;
     justify-content: center;
-    justify-items: center; /* Nova linha */
-    align-items: center;   /* Nova linha */
+    justify-items: center; 
+    align-items: center;   
     text-align: center;
 }
 

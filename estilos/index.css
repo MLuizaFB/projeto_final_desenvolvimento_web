@@ -44,7 +44,7 @@ nav{
     display: flex;   
     flex-direction: column;
     gap:1em;
-    align-items: center; /* Mantém os ícones centralizados */
+    align-items: center; 
     padding: 0;
     margin: 0;
 }

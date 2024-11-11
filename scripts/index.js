@@ -109,7 +109,6 @@ document.querySelectorAll('.lista_tela_fazendas_icones_imagens').forEach(icone =
 let modoAcessibilidade = false;
 const toggleButton = document.getElementById('botao_acessibilidade');
 
-// Toggle de acessibilidade ao clicar na imagem
 toggleButton.addEventListener('click', () => {
   modoAcessibilidade = !modoAcessibilidade;
   toggleButton.alt = modoAcessibilidade ? 'Desativar Leitura de Texto' : 'Ativar Leitura de Texto';

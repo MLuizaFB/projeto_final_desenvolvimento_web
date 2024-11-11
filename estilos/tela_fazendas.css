@@ -9,8 +9,8 @@
     grid-template-rows: 10% 90%;
     column-gap: 2rem;
     justify-content: center;
-    justify-items: center; /* Nova linha */
-    align-items: center;   /* Nova linha */
+    justify-items: center; 
+    align-items: center;  
     text-align: center;
 }
 

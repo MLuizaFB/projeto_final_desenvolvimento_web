@@ -8,8 +8,8 @@
     grid-template-columns: 1fr 3fr 1fr 1fr;
     grid-template-rows: 10% 90%;
     justify-content: center;
-    justify-items: center; /* Nova linha */
-    align-items: center;   /* Nova linha */
+    justify-items: center;
+    align-items: center;  
     text-align: center;
 }
 
@@ -89,8 +89,8 @@
 #div_tela_personagens{
     display: grid;
     justify-content: center;
-    justify-items: center; /* Nova linha */
-    align-items: center;   /* Nova linha */
+    justify-items: center; 
+    align-items: center;   
     text-align: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 60% 40%;
@@ -143,8 +143,8 @@
 #div_personagem_nome{
     display: flex;
     justify-content: center;
-    justify-items: center; /* Nova linha */
-    align-items: center;   /* Nova linha */
+    justify-items: center; 
+    align-items: center;   
     text-align: center;
     gap: 1rem;
 }
